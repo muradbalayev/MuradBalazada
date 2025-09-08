@@ -57,19 +57,12 @@ export default function Sidebar() {
           </p>
           <div className="flex gap-3">
             <a
-              href="#contact"
-              className="group inline-flex items-center gap-2 h-12 px-4 rounded-full bg-foreground text-background text-sm font-medium shadow-sm hover:opacity-90"
+            href="https://wa.link/gh52qp"
+            className="group inline-flex items-center gap-2 h-12 px-4 rounded-full bg-foreground text-background text-sm font-medium shadow-sm hover:opacity-90"
             >
               Work with me
               <ArrowRight className="size-4 group-hover:translate-x-[2px] transition" />
-            </a>
-            <a
-              href="#message"
-              className="inline-flex items-center gap-2 h-12 px-4 rounded-full bg-black/5 border border-black/10 dark:border-transparent dark:bg-white/10 text-sm font-medium hover:bg-black/10 dark:hover:bg-white/20"
-            >
-              Message me
-            </a>
-            
+            </a>  
           </div>
         </div>
 
@@ -123,16 +116,16 @@ export default function Sidebar() {
         <div className="flex flex-row  items-center sm:justify-between sm:gap-4 gap-2 sm:text-sm text-xs">
           {/* email badge */}
           <a
-            href="mailto:muradbalazade@gmail.com"
+            href="mailto:muradbalazade@yahoo.com"
             className="inline-flex items-center gap-2 px-3 py-3 rounded-full bg-black/5 text-black/70 ring-1 ring-black/10 hover:bg-black/10 hover:ring-black/20 dark:bg-white/10 dark:text-white/70 dark:ring-white/15 dark:hover:bg-white/15"
           >
             <span className="i-mdi-email hidden" aria-hidden />
-            <span>muradbalazade@gmail.com</span>
+            <span>muradbalazade@yahoo.com</span>
           </a>
 
           {/* socials */}
             <a
-              href="#github"
+              href="https://github.com/muradbalayev"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-3 py-3 rounded-full ring-1 ring-black/10 bg-black/5 hover:bg-black/10 hover:ring-black/20 dark:ring-white/15 dark:bg-white/10 dark:hover:bg-white/15"
@@ -143,7 +136,7 @@ export default function Sidebar() {
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a
-              href="#linkedin"
+              href="https://www.linkedin.com/in/murad-balazade"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-3 py-3 rounded-full ring-1 ring-black/10 bg-black/5 hover:bg-black/10 hover:ring-black/20 dark:ring-white/15 dark:bg-white/10 dark:hover:bg-white/15"
