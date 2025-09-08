@@ -38,7 +38,7 @@ function ProjectCardBase({ project }) {
     <section className="rounded-3xl dark:border-white/10 bg-[#f7f7f7] dark:bg-white/[.04] p-3 sm:p-4">
       {!project.isLink ? (
         project?.title && (
-          <div className="flex items-center justify-between px-4 pt-2 text-gray-600 dark:text-gray-400">
+          <div className="flex items-center justify-between px-4 pt-2 text-gray-600 dark:text-gray-200">
             <h3 className="text-lg font-semibold tracking-tight">
               {project.title}
             </h3>
@@ -46,7 +46,7 @@ function ProjectCardBase({ project }) {
         )
       ) : (
         project?.title && (
-        <div className="flex items-center justify-between px-4 pt-2 text-gray-600 dark:text-gray-400">
+        <div className="flex items-center justify-between px-4 pt-2 text-gray-600 dark:text-gray-200">
           <a href={project.href} target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-lg font-semibold tracking-tight">
             {project.title}
           </a>
