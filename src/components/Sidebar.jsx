@@ -7,12 +7,12 @@ import CVPopover from "./Resume";
 
 export default function Sidebar() {
   return (
-    <aside className="xl:sticky relative overflow-y-auto xl:top-0 xl:h-dvh flex flex-col justify-between py-6 px-4 sm:py-10 sm:px-10  bg-background">
+    <aside className="xl:sticky mx-auto relative sm:overflow-y-auto xl:top-0 xl:h-dvh flex flex-col justify-between py-6 px-4 sm:py-10 sm:px-10  bg-background">
       <div className="space-y-6 max-w-[420px]">
         {/* Header row with theme toggle */}
        
         {/* Profile */}
-        <div className="flex items-center sm:gap-4 gap-3">
+        <div className="flex items-center   sm:gap-4 gap-3">
           <div className="sm:w-[60px] sm:h-[60px] w-[56px] h-[56px] sm:min-w-[60px] sm:min-h-[60px] min-w-[56px] min-h-[56px] rounded-full  overflow-hidden">
             <Image
               src={myImage}
@@ -28,16 +28,16 @@ export default function Sidebar() {
               width={1024}
               height={1024}
               alt="Profile"
-              className="w-full h-full object-cover rounded-full dark:invert"
+              className="w-full h-full object-cover dark:invert"
             />
           </div>
-          <div className="inline-flex items-center gap-2 px-3 py-3 rounded-lg bg-emerald-100 text-emerald-800 ring-1 ring-emerald-200/70 dark:bg-emerald-900/30 dark:text-emerald-300 dark:ring-emerald-800/40 w-max">
+          <div className="inline-flex ml-2 items-center gap-2 px-3 py-3 rounded-lg bg-emerald-100 text-emerald-800 ring-1 ring-emerald-200/70 dark:bg-emerald-900/30 dark:text-emerald-300 dark:ring-emerald-800/40 w-max">
           <span className="animate-pulse size-2.5 rounded-full bg-emerald-600 dark:bg-emerald-500" />
           <span className="sm:text-sm text-xs font-medium">
-            Available for hire
+            Available <span className="sm:inline-block ">for hire</span>
           </span>
         </div>
-        <div className=" flex items-center justify-end">
+        <div className="theme sm:flex hidden items-center justify-end">
           <ThemeSwitch />
         </div>
         </div>
@@ -46,7 +46,7 @@ export default function Sidebar() {
         
 
         {/* Intro */}
-        <div className="space-y-3 mt-20">
+        <div className="space-y-3 sm:mt-20 mt-16">
           <h2 className="text-2xl font- font-medium leading-tight">
             Websites that takes startups from zero to epic.
           </h2>
@@ -69,6 +69,7 @@ export default function Sidebar() {
             >
               Message me
             </a>
+            
           </div>
         </div>
 
@@ -119,7 +120,7 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="mt-8 max-w-[420px]">
-        <div className="flex flex-row  items-center justify-between gap-4 text-sm">
+        <div className="flex flex-row  items-center sm:justify-between sm:gap-4 gap-2 sm:text-sm text-xs">
           {/* email badge */}
           <a
             href="mailto:muradbalazade@gmail.com"

@@ -38,16 +38,16 @@ function ProjectCardBase({ project }) {
     <section className="rounded-3xl dark:border-white/10 bg-[#f7f7f7] dark:bg-white/[.04] p-3 sm:p-4">
       {!project.isLink ? (
         project?.title && (
-          <div className="flex items-center justify-between px-4 pt-2 text-gray-600 dark:text-gray-200">
-            <h3 className="text-lg font-semibold tracking-tight">
+          <div className="flex items-center justify-between px-4 py-2 text-gray-600 dark:text-gray-200">
+            <h3 className="sm:text-lg text-sm font-semibold tracking-tight">
               {project.title}
             </h3>
           </div>
         )
       ) : (
         project?.title && (
-        <div className="flex items-center justify-between px-4 pt-2 text-gray-600 dark:text-gray-200">
-          <a href={project.href} target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-lg font-semibold tracking-tight">
+        <div className="flex items-center justify-between px-4 py-2 text-gray-600 dark:text-gray-200">
+          <a href={project.href} target="_blank" rel="noopener noreferrer" className="cursor-pointer underline sm:text-lg text-sm font-semibold tracking-tight">
             {project.title}
           </a>
         </div>
@@ -57,7 +57,7 @@ function ProjectCardBase({ project }) {
         <div className="grid gap-3 grid-cols-1 ">
           {project.images?.map((img, idx) => {
             const padded =
-              img.display !== "fullscreen" || img.display !== "centered";
+              img.display !== "fullscreen" && img.display !== "centered";
             const paddingSize =
               img.padding === "lg"
                 ? "p-6 sm:p-8"

@@ -135,3 +135,13 @@ body {
   background: rgba(180, 220, 255, 0.7);
   color: #0a0a0a;
 }
+
+.theme {
+    display: none;
+}
+
+@media (width >= 400px) {
+    .theme {
+        display: flex;
+    }
+}
