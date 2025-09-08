@@ -13,8 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: "Murad Balazada",
-  description: "React developer",
+  description:
+    "A software engineer with 2+ years of experience helping companies create web and mobile products. High impact interfaces and performance-driven applications.",
+  manifest: "/favicon/manifest.json",
+  icons: {
+    icon: "/favicon/favicon.ico",
+    shortcut: "/favicon/favicon.ico",
+    apple: "/favicon/apple-icon.png",
+  },
   openGraph: {
     title: "Murad Balazada - Developer for Web, Mobile and Startups",
     url: "https://muradbalazada.com",
