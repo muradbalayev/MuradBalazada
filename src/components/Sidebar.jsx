@@ -55,7 +55,7 @@ export default function Sidebar() {
             products. High impact interfaces and performance-driven
             applications.
           </p>
-          <div className="flex gap-3">
+          <div className="flex gap-3 mt-6">
             <a
             href="https://wa.link/gh52qp"
             className="group inline-flex items-center gap-2 h-12 px-4 rounded-full bg-foreground text-background text-sm font-medium shadow-sm hover:opacity-90"

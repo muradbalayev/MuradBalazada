@@ -1,7 +1,7 @@
 import bantik from '@/assets/projects/bantik-4.png'
 import coffeeme from '@/assets/projects/coffeeme.png'
 import ddw from '@/assets/projects/ddw.png'
-import evoAcademy from '@/assets/projects/evoAcademy.png'
+import evoAcademy from '@/assets/projects/evoAcademy2.png'
 import valser from '@/assets/projects/valser-2.png'
 
 
@@ -15,7 +15,7 @@ export const projects = [
     description:
       "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
     images: [
-      { src: bantik, alt: "Placeholder 1", display: "centered" },
+      { src: bantik, alt: "Bantik", display: "centered" },
     ]
   },
   {
@@ -27,7 +27,7 @@ export const projects = [
     description:
       "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
     images: [
-      { src: coffeeme, alt: "Placeholder 1", display: "centered" },
+      { src: coffeeme, alt: "CoffeeMe", display: "centered" },
     ]
   },
   {
@@ -39,7 +39,31 @@ export const projects = [
     description:
       "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
     images: [
-      { src: valser, alt: "Placeholder 1", display: "centered" },
+      { src: valser, alt: "Valser", display: "centered" },
+    ]
+  },
+  {
+    id: "4",
+    title: "Evo Academy",
+    isLink: true,
+    href: "https://evoacademy.az",
+    variant: "image",
+    description:
+      "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
+    images: [
+      { src: evoAcademy, alt: "Evo Academy", display: "centered" },
+    ]
+  },
+  {
+    id: "5",
+    title: "DDW",
+    isLink: true,
+    href: "https://ddw.az",
+    variant: "image",
+    description:
+      "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
+    images: [
+      { src: ddw, alt: "DDW", display: "centered" },
     ]
   },
 //   {
