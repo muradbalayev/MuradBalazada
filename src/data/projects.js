@@ -3,6 +3,7 @@ import coffeeme from '@/assets/projects/coffeeme.png'
 import ddw from '@/assets/projects/ddw.png'
 import evoAcademy from '@/assets/projects/evoAcademy2.png'
 import valser from '@/assets/projects/valser.png'
+import unical from '@/assets/projects/unical.png'
 
 
 export const projects = [
@@ -64,6 +65,18 @@ export const projects = [
       "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
     images: [
       { src: ddw, alt: "DDW", display: "centered" },
+    ]
+  },
+  {
+    id: "6",
+    title: "Unical Clinic",
+    isLink: false,
+    href: "https://unical.az",
+    variant: "image",
+    description:
+      "A React Native + Next.js concept for a crypto finance dashboard with clean dark UI and smooth charts.",
+    images: [
+      { src: unical, alt: "Unical", display: "centered" },
     ]
   },
 //   {
