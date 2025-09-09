@@ -2,7 +2,7 @@ import bantik from '@/assets/projects/bantik-4.png'
 import coffeeme from '@/assets/projects/coffeeme.png'
 import ddw from '@/assets/projects/ddw.png'
 import evoAcademy from '@/assets/projects/evoAcademy2.png'
-import valser from '@/assets/projects/valser-2.png'
+import valser from '@/assets/projects/valser.png'
 
 
 export const projects = [
