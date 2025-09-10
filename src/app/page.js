@@ -7,7 +7,7 @@ export default function Home() {
     <div className="font-sans">
       {/* Shell */}
       <div className="mx-auto ">
-        <div className="grid grid-cols-1 xl:grid-cols-[560px_minmax(0,1fr)] gap-6">
+        <div className="grid grid-cols-1 xl:grid-cols-[500px_minmax(0,1fr)] xl:gap-6">
           {/* Left fixed/sticky column */}
           <Sidebar />
 

@@ -28,7 +28,7 @@ export default function CVPopover() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -6, scale: 0.98 }}
               transition={{ duration: 0.18, ease: "easeOut" }}
-              className="absolute z-20 mt-2 w-[min(320px,80vw)] rounded-xl border border-black/10 bg-white p-3 shadow-lg dark:border-white/10 dark:bg-black"
+              className="absolute sm:top-[260%] transform sm:-translate-y-full sm:left-20 z-20 mt-2 w-[min(320px,80vw)] rounded-xl border border-black/10 bg-white p-3 shadow-lg dark:border-white/10 dark:bg-black"
             >
               <div className="flex flex-col gap-2">
                 <a

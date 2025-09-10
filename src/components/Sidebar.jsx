@@ -46,11 +46,11 @@ export default function Sidebar() {
         
 
         {/* Intro */}
-        <div className="space-y-3 sm:mt-20 mt-16">
-          <h2 className="text-2xl font- font-medium leading-tight">
-            Websites that takes startups from zero to epic.
+        <div className="space-y-3 mt-12">
+          <h2 className="text-xl font-medium leading-tight">
+            Websites that takes startups from <br className="sm:block hidden"/> zero to epic.
           </h2>
-          <p className="text-sm text-black/70 dark:text-white/70 leading-relaxed">
+          <p className="text-sm font-medium text-black/70 dark:text-white/70 ">
             I'm Murad Balazade 22, a software engineer with 2+ years of experience helping companies create web and mobile
             products. High impact interfaces and performance-driven
             applications.
@@ -71,12 +71,10 @@ export default function Sidebar() {
           <h3 className="font-medium">What I’m best at...</h3>
           <div className="grid grid-cols-2 gap-2">
             {[
-                "React",
+              "JavaScript",
+              "React",
               "Next.js",
               "React Native",
-              "JavaScript",
-              "Tailwind",
-              "State Management",
               "Animations",
               "Performance",
             ].map((t) => (
@@ -112,12 +110,12 @@ export default function Sidebar() {
       </div>
 
       {/* Footer */}
-      <div className="mt-8 max-w-[420px]">
+      <div className="max-w-[420px] xl:mt-0 mt-6">
         <div className="flex flex-row  items-center sm:justify-between sm:gap-4 gap-2 sm:text-sm text-xs">
           {/* email badge */}
           <a
             href="mailto:muradbalazade@yahoo.com"
-            className="inline-flex items-center gap-2 px-3 py-3 rounded-full bg-black/5 text-black/70 ring-1 ring-black/10 hover:bg-black/10 hover:ring-black/20 dark:bg-white/10 dark:text-white/70 dark:ring-white/15 dark:hover:bg-white/15"
+            className="inline-flex text-xs items-center gap-2 px-2 py-2 rounded-full bg-black/5 text-black/70 ring-1 ring-black/10 hover:bg-black/10 hover:ring-black/20 dark:bg-white/10 dark:text-white/70 dark:ring-white/15 dark:hover:bg-white/15"
           >
             <span className="i-mdi-email hidden" aria-hidden />
             <span>muradbalazade@yahoo.com</span>
@@ -128,7 +126,7 @@ export default function Sidebar() {
               href="https://github.com/muradbalayev"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 px-3 py-3 rounded-full ring-1 ring-black/10 bg-black/5 hover:bg-black/10 hover:ring-black/20 dark:ring-white/15 dark:bg-white/10 dark:hover:bg-white/15"
+              className="group inline-flex text-xs items-center gap-2 px-2 py-2 rounded-full ring-1 ring-black/10 bg-black/5 hover:bg-black/10 hover:ring-black/20 dark:ring-white/15 dark:bg-white/10 dark:hover:bg-white/15"
               aria-label="GitHub"
               title="GitHub"
             >
@@ -139,7 +137,7 @@ export default function Sidebar() {
               href="https://www.linkedin.com/in/murad-balazade"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 px-3 py-3 rounded-full ring-1 ring-black/10 bg-black/5 hover:bg-black/10 hover:ring-black/20 dark:ring-white/15 dark:bg-white/10 dark:hover:bg-white/15"
+              className="group inline-flex text-xs items-center gap-2 px-2 py-2 rounded-full ring-1 ring-black/10 bg-black/5 hover:bg-black/10 hover:ring-black/20 dark:ring-white/15 dark:bg-white/10 dark:hover:bg-white/15"
               aria-label="LinkedIn"
               title="LinkedIn"
             >
